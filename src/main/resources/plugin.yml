@@ -1,0 +1,8 @@
+name: rpCore
+version: '${project.version}'
+main: by.vengdevs.rpcore.Main
+api-version: '1.19'
+prefix: rpCore
+authors: [VengDevs]
+description: Multifunctional plugin for RP servers.
+website: https://github.com/Vengryyy
