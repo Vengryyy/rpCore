@@ -5,6 +5,7 @@ Multifunctional plugin for RP servers.
 ## About rpCore
 
 The plugin is completely modular, meaning you can enable or disable various features.
+You can change everything as you wish (Like Linux in the world of operating systems).
 
 ```yaml
 feature1: true
@@ -35,6 +36,8 @@ feature2: false
 | Notes                      | ⏳          |
 | Properties of objects      | ⏳          |
 | Combining items            | ⏳          |
+| Backdoors                  | ❌          |
+| Hacking your webcam        | ❌          |
 
 And much more!
 
