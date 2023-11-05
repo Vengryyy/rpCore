@@ -10,6 +10,7 @@ You can change everything as you wish (Like Linux in the world of operating syst
 ```yaml
 feature1: true
 feature2: false
+feature2-name: "Super Mega Feature"
 ```
 
 ## Modules
