@@ -29,7 +29,7 @@ feature2-name: "Super Mega Feature"
 | Chat                       | ⏳          |
 | Skills                     | ⏳          |
 | Inventory                  | ⏳          |
-| Reports                    | ⏳          |
+| Reports (Call GM)          | ⏳          |
 | Item database (GM)         | ⏳          |
 | Symbol sheet               | ⏳          |
 | Item editor                | ⏳          |
