@@ -6,3 +6,7 @@ prefix: rpCore
 authors: [VengDevs]
 description: Multifunctional plugin for RP servers.
 website: https://github.com/Vengryyy
+commands:
+  config:
+    aliases: cfg
+    description: 'Configuration file management.'

@@ -1,0 +1,8 @@
+# Commands configuration
+commands:
+  # Config command
+  config:
+    # Permissions for use config command
+    permissions: 'rpcore.commands.config'
+    # Who can use config command (player, console, all)
+    executor: 'all'

@@ -1,17 +1,26 @@
 package by.vengdevs.rpcore;
 
+import by.vengdevs.rpcore.commands.ConfigCommand;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Objects;
 
 public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+
+        saveDefaultConfig();
+
+        Objects.requireNonNull(getCommand("config")).setExecutor(new ConfigCommand(this));
+        Objects.requireNonNull(getCommand("config")).setTabCompleter(new ConfigCommand(this));
+
+        getServer().getConsoleSender().sendMessage("rpCore enabled!");
 
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getServer().getConsoleSender().sendMessage("rpCore disabled!");
     }
 }
